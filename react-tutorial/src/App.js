@@ -5,8 +5,9 @@ import { v4 as uuidv4 } from 'uuid';
 import React from 'react';
 
 function App() {
-  // useStateはReactのフックで状態を管理する　変数の更新が行われた時に発火
+  // useStateはReactのフックで状態を管理する 変数の更新が行われた時に発火
   // todos: これから作成するタスク 
+  // このコードでは、todosという状態変数と、その状態変数を更新するためのsetTodos関数が定義されています。todosは現在のTODOリストを表し、setTodosは新しいTODOリストをセットするための関数です。
   const [todos, setTodos] = useState([]);
 
 
